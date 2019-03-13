@@ -1,0 +1,60 @@
+.button {
+  border-radius: 12px;
+  background-color: #6F6F6F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 30px;
+  width: 300px;
+  height:250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button.reg{
+  width: 300px;
+  height:30px;
+  color: white;
+  cursor: pointer;
+  background-color:red; 
+  border-radius: 12px;
+  float: left;
+}
+button.reg:hover{
+  width: 300px;
+  height:30px;
+  color: red;
+ /* cursor: pointer;*/
+  background-color:white; 
+  border-radius: 12px;
+}
+
+div.grid{
+  margin-left: 10px;
+}
