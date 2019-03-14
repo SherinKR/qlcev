@@ -80,12 +80,14 @@ img.header-name{
   width:auto;
 }
 img.footer-name{
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    position: fixed;
-    left: auto;
-    bottom: 30px;
+    width: 50%;
+    height: 30px;
+    /*text-align: center;*/
+    position: relative;
+    /*margin-right: auto;*/
+    margin-left: 10%;
+    /*left: auto;*/
+    bottom: 0px;
 }
 img.footer-fb{
     margin-bottom: 2px;

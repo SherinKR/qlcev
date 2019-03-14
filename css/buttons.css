@@ -56,5 +56,30 @@ button.reg:hover{
 }
 
 div.grid{
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
+img.icons{
+  /*border-radius: 12px;
+  margin: 10px;*/
+}
+
+@media screen and (min-width: 601px) {
+  div.grid {
+    margin-left: 10px;
+  }
+  img.icons {
+    border-radius: 12px;
+  margin: 10px;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  div.grid {
+    margin: 0px;
+
+  }
+  img.icons {
+
+    border-radius: 12px;
+    margin: 5px;
+  }
