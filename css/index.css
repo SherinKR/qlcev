@@ -119,6 +119,28 @@ img.footer-android{
    color: white;
    text-align: center;
 }
+span.foot {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:transparent;
+   color: white;
+   text-align: center;
+}
+@media screen and (min-width: 601px) {
+  span.foot {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span.foot {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: -70px;
+  }
 
 #snow1 {
   width: 1px;
