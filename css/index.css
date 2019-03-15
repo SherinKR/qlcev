@@ -37,11 +37,13 @@ body {
 
 .topnav .icon {
   display: none;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
+    margin-right: 10px;
     float: right;
     display: block;
   }
@@ -51,6 +53,7 @@ body {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
+    margin-right: 10px;
     right: 0;
     top: 0;
   }
@@ -65,17 +68,17 @@ body {
   background-color: black;
 }
 img.navlog{
-  height: 40px;
-  width: 40px;
+  /*height: 40px;*/
+  width: 4rem;
   float: left;
-  margin-top: px;
-  margin-bottom: 2px;
+  margin-top:10px;
+  margin-bottom: 10px;
   margin-left: 10px;
 }
 img.header-name{
-  height: 30px;
-  margin-top: 6px;
-  margin-bottom: 2px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 10px;
   width:auto;
 }
